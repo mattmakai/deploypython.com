@@ -6,18 +6,56 @@
 
 {% block content %}
 <div class="row">
-    <div class="col-md-12">
-        <h3 style="color: #22b24c;">Coming soon...</h3>
-        <h1 style="font-size: 2em;">The Full Stack Python Guide to Deployments</h1>
-        <p>Entirely new content in an ebook format with detailed 
-           step-by-step tutorials for configuring and 
-           deploying Python web applications.</p>
-
+    <div class="col-md-6" style="margin-top: 20px; margin-bottom: 20px;">
+        <p>The Full Stack Python Guide to Deployments is a new ebook 
+           with detailed step-by-step tutorials for configuring and 
+           deploying Python web applications.
+        </p>
+        <p>All of the content is entirely new and can be used by itself or
+           in combination with the material available on 
+           <a href="http://www.fullstackpython.com/">Full Stack Python</a>. 
+        </p>
         {% include "email-for-book.html" %}
-        <br>
-        <p>Here's a little preview of how we'll handle a full application deployment
-           together throughout the book:</p>
+        <h3>What's in the book?</h3>
+        We'll take an example open source Python web application
+        through a complete deployment on a virtual private server. 
+        In each chapter, we will first learn how to deploy the application 
+        manually, to fully understand each step, then automate the steps
+        with <a href="http://www.fabfile.org/">Fabric</a> and 
+        <a href="http://docs.ansible.com/">Ansible</a>.
+    </div>
+    <div class="col-md-4">
+        <img src="/source/theme/static/img/fsp-gtd-cover.png" alt="Picture of the book cover." width="100%" style="border-radius: 5px; box-shadow: 4px 4px 3px #222; border: 1px solid #999;">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12" style="margin-top: 15px;">
+        <p>Here's a visual preview of how we'll perform a full application 
+            deployment together throughout the book:</p>
         <img src="/source/theme/static/img/map.png" width="100%">
+        <h3>Chapters</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li>Chapter 1: Introduction</li>
+                    <li>Chapter 2: Servers (Linode)</li>
+                    <li>Chapter 3: Operating Systems (Ubuntu)</li>
+                    <li>Chapter 4: Web Servers (Nginx)</li>
+                    <li>Chapter 5: Source control (Git)</li>
+                    <li>Chapter 6: Databases (PostgreSQL and Redis)</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li>Chapter 7: Application Dependencies</li>
+                    <li>Chapter 8: WSGI Servers (Gunicorn)</li>
+                    <li>Chapter 9: Task Queues (Celery)</li>
+                    <li>Chapter 10: Continuous Integration (Jenkins)</li>
+                    <li>Chapter 11: What's Next?</li>
+                    <li>Appendices: Technical Terms and Resources</li>
+                </ul>
+            </div>
+        </div>
         <br>
         <p>That's all for now. Have you read the Full Stack Python
            <a href="http://www.fullstackpython.com/deployment.html">deployment page</a>? :)
