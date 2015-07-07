@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block meta_header %}
+<meta name="description" content="Frequently asked questions (FAQ) for The Full Stack Python Guide to Deployments.">
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-10" style="margin-top: 20px; margin-bottom: 20px;">
+        <h1>{{ page.title }}</h1>
+        {{ page.content }}
+    </div>
+</div>
+{% endblock %}
