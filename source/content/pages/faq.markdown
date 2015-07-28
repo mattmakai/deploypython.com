@@ -14,7 +14,7 @@ The book is entirely new content with specific step-by-step instructions
 and explanations for performing deployments. When you read 
 [Full Stack Python](http://www.fullstackpython.com/) you will understand
 deployments at a high level, but will not know the exact commands to, for 
-example, configure a web server like Nginx. 
+example, configure an Nginx web server or set up continuous integration.
 
 The Full Stack Python Guide to Deployments gives you all those commands and 
 shows you how to deploy Python web applications manually and then shows you
@@ -52,4 +52,13 @@ uses the open source
 as an example throughout each chapter. However, if you do already have an 
 application you want to deploy, you will be able to follow along and use 
 the book to deploy that app instead.
+
+
+
+## Will there be updates to the book?
+Yes, the initial launch of the book on July 28 was to get a solid amount
+of starting content out to purchasers. Once developers have a chance to
+read the book and provide feedback I will build on the book from there.
+I have plenty of ideas for what needs to be expanded upon in the book but
+the new content will be directed primarily by reader feedback.
 
