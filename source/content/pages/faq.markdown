@@ -56,9 +56,7 @@ the book to deploy that app instead.
 
 
 ## Will there be updates to the book?
-Yes, the initial launch of the book on July 28 was to get a solid amount
-of starting content out to purchasers. Once developers have a chance to
-read the book and provide feedback I will build on the book from there.
-I have plenty of ideas for what needs to be expanded upon in the book but
-the new content will be directed primarily by reader feedback.
-
+Yes, there have already been several updates since the initial launch of 
+the book on July 28. Check out the 
+[product page](https://gumroad.com/l/python-deployments) for more 
+information.

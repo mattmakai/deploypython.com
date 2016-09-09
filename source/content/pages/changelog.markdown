@@ -12,7 +12,7 @@ Please keep the reader feedback coming by
 [contacting me](https://www.fullstackpython.com/about-author.html)!
 
 
-## May 2016 (in progress)
+## In progress update
 **Caveat**: These are potential updates that may or may not make it into
 the next release or future releases. I'll do my best, but I can't guarantee
 there won't be unforeseen issues that prevent me from getting these done.
@@ -23,10 +23,11 @@ there won't be unforeseen issues that prevent me from getting these done.
 
 ----
 
-## April 2016
+## September 2016 Update
 * Updated images to match current UIs on cloud services
 * Proofread, re-wrote, fixed typos and generally improved every chapter 
-* **Under the covers**: moved to Gitbook to generate the PDFs and EPUBs
+* **Under the covers**: moved to Prince to generate the PDFs, Pandoc for 
+  ePubs and Kindlegen for .mobi
 * *Chapter 3*
     * Clarified Ansible playbook creation instructions based on reader 
       feedback
@@ -38,7 +39,7 @@ there won't be unforeseen issues that prevent me from getting these done.
 
 ----
 
-## December 2015
+## End of the Year Update - December 2015
 * Pinned Ansible library to version 1.9.4 because 1.9.6 has a bug with the
   [Twilio module](http://docs.ansible.com/ansible/twilio_module.html) due 
   to a mistake in the merge that snuck in from a previous version.
