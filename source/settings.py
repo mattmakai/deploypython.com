@@ -9,7 +9,7 @@ GITHUB_URL = 'https://github.com/makaimc/deploypython.com'
 DISQUS_SITENAME = 'makaimc'
 PDF_GENERATOR = False
 
-DIRECT_TEMPLATES = ('index',)
+DIRECT_TEMPLATES = ('index','sitemap')
 
 SITEMAP_SAVE_AS = 'sitemap.xml'
 

@@ -16,12 +16,16 @@ Please keep the reader feedback coming by
 **Caveat**: These are potential updates that may or may not make it into
 the next release or future releases. I'll do my best, but I can't guarantee
 there won't be unforeseen issues that prevent me from getting these done.
-* Updating from Ansible 1.9.4 to 2.0.1.0
-* Evaluating whether to use Ubuntu 16.04 LTS instead of the current 14.04.
-  May need to wait a few months for this one to shake out any bugs.
+* Updating from Ansible 1.9.4 to 2.1.2.0
+* Eventually moving to Ubuntu 16.04 LTS instead of the current 14.04.
 
 
 ----
+
+## Future update
+* Typo fix on Git URL in chapter 5 source control. Thanks Rado!
+* Typo fix in introduction, missing a word. Thanks Duncan!
+
 
 ## September 2016 Update
 * Updated images to match current UIs on cloud services
