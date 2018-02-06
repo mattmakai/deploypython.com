@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="Matt Makai">
+ {% block meta_header %}{% endblock %}
+  <link rel="shortcut icon" href="/img/fsp-fav.png">
+  <title>{% block title %}{% endblock %}Deploy Python</title>
+  <link href="theme/css/f.min.css" rel="stylesheet">
+  <style>.purchase-nav {font-family:"Helvetica Neue";font-size:2em;float:right}</style>
+  {% include "googleanalytics.html" %}
+</head>
+<body>
+ <div class="container">
+  {% include "nav.html" %}
+  {% block content %}{% endblock %}
+  <hr/>
+  <div class="footer pull-right">
+   <a href="http://www.mattmakai.com/" class="underline">Matt Makai</a> 2018
+  </div>
+ </div>
+ {% block js %}{% endblock %}
+</body>
+</html>

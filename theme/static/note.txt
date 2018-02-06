@@ -1,0 +1,2 @@
+All static files can be found in the static folder (/static/) under the
+base project directory.

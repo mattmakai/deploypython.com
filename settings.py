@@ -1,26 +1,25 @@
 # -*- coding: utf-8 -*-
 
 AUTHOR = u'Matt Makai'
-SITENAME = u'Matt Makai'
+SITENAME = u'Deploy Python'
 SITEURL = 'http://www.deploypython.com'
 TIMEZONE = 'America/New_York'
 
-GITHUB_URL = 'https://github.com/makaimc/deploypython.com'
-DISQUS_SITENAME = 'makaimc'
+GITHUB_URL = 'https://github.com/mattmakai/deploypython.com'
 PDF_GENERATOR = False
 
 DIRECT_TEMPLATES = ('index','sitemap')
 
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
 SITEMAP_SAVE_AS = 'sitemap.xml'
+FEED_DOMAIN = 'http://www.deploypython.com/'
 
-BYLINE = '&copy; 2015 Matt Makai. All Rights Reserved.'
 LINKS = ()
-
 MARKUP = ('rst', 'markdown',)
 
 SOCIAL = (
-    ('Email', 'mailto:makaimc@gmail.com'),
-    ('GitHub', 'https://github.com/makaimc'),
+    ('Email', 'mailto:matthew.makai@gmail.com'),
+    ('GitHub', 'https://github.com/mattmakai'),
     ('Twitter', 'http://twitter.com/mattmakai'),
 )
 
