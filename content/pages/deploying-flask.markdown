@@ -1,4 +1,18 @@
+title: Deploying Flask Web Applications
+category: page
+slug: deploying-flask-web-applications
+
+
+## Change Log
+## 2018
+### February
+* Fix typo: missing word "use" in introduction paragraph (yikes!).
+
+
+## Editions List
 2018-05-01: **May 2018 edition**. 
+
+
 
 2016-09-08: **September 2016 edition**. Major clarification text and 
 improvements to all chapters based on further reader feedback. Changed 
