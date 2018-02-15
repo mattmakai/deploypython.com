@@ -7,6 +7,9 @@ slug: deploying-flask-web-applications
 ## 2018
 ### February
 * Fix typo: missing word "use" in introduction paragraph (yikes!).
+* Changed the book title from "The Full Stack Python Guide to Deployments"
+  to "Deploying Flask Web Applications" to more accurately represent
+  the content and future directions.
 
 
 ## Editions List
