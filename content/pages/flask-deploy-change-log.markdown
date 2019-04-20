@@ -4,7 +4,7 @@ slug: changelog
 
 
 This is a running list by release month of the improvements made to 
-[The Full Stack Python Guide to Deployments book](https://gumroad.com/l/python-deployments). 
+[Deploying Flask Web Applications (previously titled *The Full Stack Python Guide to Deployments*](https://gumroad.com/l/python-deployments). 
 Take a look below if you're on the fence about purchasing the book or 
 just trying to catch up on what's new since you last read through it.
 
@@ -12,11 +12,18 @@ Please keep the reader feedback coming by
 [contacting me](https://www.fullstackpython.com/about-author.html)!
 
 
+## April 12, 2019
+* Updated chapter 4 to obtain SSL certificates from Let's Encrypt instead
+  of creating a self-signed cert.
+* Fixed an issue in chapter 2 where instructions were not specific enough
+  about using the newly-generated root key to log into the server.
+
 ## In progress update
 **Caveat**: These are potential updates that may or may not make it into
 the next release or future releases. I'll do my best, but I can't guarantee
 there won't be unforeseen issues that prevent me from getting these done.
 * Updating from Ansible 1.9.4 to 2.1.2.0
+* Removing Fabric as a dependency
 * Eventually moving to Ubuntu 16.04 LTS instead of the current 14.04.
 
 
