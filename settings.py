@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-AUTHOR = u'Matt Makai'
+AUTHOR = u'Matthew Makai'
 SITENAME = u'Deploy Python'
-SITEURL = 'http://www.deploypython.com'
+SITEURL = 'https://www.deploypython.com'
 TIMEZONE = 'America/New_York'
 
 GITHUB_URL = 'https://github.com/mattmakai/deploypython.com'
@@ -12,7 +12,7 @@ DIRECT_TEMPLATES = ('index','sitemap','deploying-flask-web-apps')
 
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 SITEMAP_SAVE_AS = 'sitemap.xml'
-FEED_DOMAIN = 'http://www.deploypython.com/'
+FEED_DOMAIN = 'https://www.deploypython.com/'
 
 LINKS = ()
 MARKUP = ('rst', 'markdown',)

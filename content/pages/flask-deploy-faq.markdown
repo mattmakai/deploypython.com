@@ -1,6 +1,6 @@
 title: Frequently Asked Questions (FAQ)
 category: page
-slug: frequently-asked-questions-faq
+slug: flask-deploy-faq
 
 These questions and answers will hopefully help you to decide if purchasing
 The Full Stack Python Guide to Deployments book is worth your time and money.
