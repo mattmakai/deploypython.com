@@ -8,7 +8,8 @@ TIMEZONE = 'America/New_York'
 GITHUB_URL = 'https://github.com/mattmakai/deploypython.com'
 PDF_GENERATOR = False
 
-DIRECT_TEMPLATES = ('index','sitemap','deploying-flask-web-apps')
+DIRECT_TEMPLATES = ('index','sitemap','deploying-flask-web-apps',
+                    'full-stack-python')
 
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 SITEMAP_SAVE_AS = 'sitemap.xml'
