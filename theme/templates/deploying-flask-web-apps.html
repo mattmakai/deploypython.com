@@ -1,12 +1,6 @@
-{% extends "base.html" %}
-
-{% block meta_header %}
-<meta name="description" content="Deploying Flask Web Applications provides step-by-step instructions for deploying your own Python-powered web apps.">
-{% endblock %}
-
-{% block content %}
 <div class="row" style="margin-top: 20px">
  <div class="c8">
+  <h1>Deploying Flask Web Applications</h1>
   <p>
    <a href="https://gumroad.com/l/python-deployments-solo">Deploying Flask Web Applications</a>
    is an updated book by 
@@ -79,7 +73,7 @@
   -->
  </div>
  <div class="c4">
-  <img src="/img/flask-deploy-cover.png" alt="Picture of the Deploying Flask Web Applications book cover." width="100%" style="border-radius: 5px; box-shadow: 4px 4px 3px #222; border: 1px solid #999;">
+  <img src="/img/flask-deploy-cover.png" alt="Picture of the Deploying Flask Web Applications book cover." width="100%" style="border-radius: 5px; box-shadow: 4px 4px 3px #222; border: 1px solid #999; margin-top:20px">
 
   <img src="/img/full-stack-python-cover.jpg" alt="Picture of the Full Stack Python book cover." width="100%" style="border-radius: 5px; box-shadow: 4px 4px 3px #222; border: 1px solid #999; margin-top: 20px;">
   <p style="margin-top: 5px; font-size: 14px;">
@@ -106,9 +100,11 @@
   <img src="/img/deployment-concepts.png" width="100%">
   <br>
   <p>
+    {{ page.content }}
+  </p>
+  <p>
    That's all for now. Have you read the Full Stack Python
    <a href="https://www.fullstackpython.com/deployment.html">deployment page</a>? :)
   </p>
  </div>
 </div>
-{% endblock %}
